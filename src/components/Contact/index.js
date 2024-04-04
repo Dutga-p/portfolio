@@ -78,9 +78,9 @@ const Contact = () => {
                     <span>david.camilo.ordonez@correounivalle.edu.co</span>
                 </div>
                 <div className='map-wrap'>
-                    <MapContainer center={[3.3778021,-76.5277752]} zoom={12}>
+                    <MapContainer center={[3.3784400,-76.5272000]} zoom={12}>
                         <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
-                        <Marker position={[3.3778021,-76.5277752]}>
+                        <Marker position={[3.3784400,-76.5272000]}>
                             <Popup> David lives here</Popup>
                         </Marker>
                     </MapContainer>
